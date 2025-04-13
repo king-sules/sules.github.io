@@ -1,1 +1,4 @@
-# sules.github.io
+# Data Enthusist 
+
+### Education 
+Physics and Economics 
