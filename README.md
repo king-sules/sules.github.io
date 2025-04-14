@@ -1,68 +1,107 @@
-# Data Enthusist 
-# Welcome To My Portfolio! I have listed projects I have done in the past. 
-### Categories are organized by: Machine Learning, Data Analysis, and Mechanical Engineering
+# Welcome To My Portfolio! 👨‍💻
 
+*"I'm Suleman, passionate about leveraging data analysis and machine learning techniques to solve complex problems, with a background in Mechanical Engineering. This portfolio showcases some of my key projects.")*
 
-## Machine Learning
-### [Project 1: Covid-19 Effects on Yellow Taxi in NYC](https://github.com/king-sules/Covid_Taxi/blob/main/Covid-19%20Taxi.ipynb)
-The basis of this project is to review if Covid-19 had an effect on the popularity of taxi in NYC. We take into consideration the year 2018 and 2020. We also take into consideration the months during the lockdown, April and May, and the months when NYC had less restriction, August and September (2020). We compare them with the same months in 2018 when there were no Covid-19 restrictions.
+Find me on: [LinkedIn](Your-LinkedIn-URL) | [GitHub](https://github.com/king-sules)
 
-We used ML models such as 1D Gaussian Mixture Model, Random Forest Regression, and also Clustering. We determined accuracy by using MSE and MAE. More information is available in detail with the link.
+---
 
-<img width="650" alt="Boroughs" src="https://user-images.githubusercontent.com/54907087/142779263-b1ac2b05-a04d-4aea-a0d0-13323740f9e1.png">
+## 🛠️ Skills Overview
 
-### [Project 2: Housing Prices vs. Nuclear Power Plants](https://github.com/king-sules/Nuclear_Matrix_Data)
-The following is my python and R codes I used for my undergraduate thesis paper. The basis of my paper was to capture house price variation with distance from a nearby nuclear power plant. I used the town of Plymouth, Massachussets for my house data. 
+| Category             | Technologies & Concepts                                         |
+| :------------------- | :-------------------------------------------------------------- |
+| **Languages** | Python, R, SQL, MATLAB                                        |
+| **Data Science & ML**| Pandas, NumPy, Scikit-learn (GMM, RandomForest), Geopy, GeoPandas, fbprophet, Regression Analysis, Clustering |
+| **Databases** | PostgreSQL (Basic)                                            |
+| **Engineering & Sim**| ANSYS, Minitab, Design of Experiments (Taguchi), Vibration Analysis |
+| **Tools & Reporting**| Git, GitHub, Jupyter Notebooks, RStudio, LaTeX                 |
+| **Domains** | Machine Learning, Data Analysis, Mechanical Engineering          |
 
-I continued to clean, and later find correlations in my data. Prices were originally listed in my dataset, but distance was obtained using geopy and geopandas library. By using these libraries, I obtained distance from each individual house listed to the power plant.
+---
 
-My paper essentially looked at how the Fukushima Daiichi event effected house prices. I created a new column in my dataset, a Fukushima dummy, where a value of 1 was assigned if the indivial house sold after 2011 and 0 before 2011. I also categorically grouped my distance column, in incriments of 4 miles, to control price variation in rural areas.
+## 🤖 Machine Learning
 
-Lastly I used R to run multiple regressions.
+### Project 1: Covid-19 Effects on Yellow Taxi in NYC
 
+<img width="650" alt="NYC Borough Taxi Pickups/Dropoffs" src="https://user-images.githubusercontent.com/54907087/142779263-b1ac2b05-a04d-4aea-a0d0-13323740f9e1.png">
 
-<img width="300" img height="300" alt="plymouth" src="https://user-images.githubusercontent.com/54907087/140659135-7cc55f6b-087c-4d19-9b3c-298bfdbbee41.png">
+* Analyzed the impact of Covid-19 restrictions on NYC yellow taxi usage by comparing data from 2018 and 2020, focusing on lockdown vs. less restricted months.
+* Utilized ML models including **1D Gaussian Mixture Model** and **Random Forest Regression**, along with **Clustering**.
+* Evaluated model performance using **MSE** and **MAE**.
 
+**Technologies Used:** ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Scikit-learn](https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=flat&logo=scikit-learn&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white) *(Replace badges with actual URLs or just list: **Python, Scikit-learn, Pandas, Jupyter Notebook**)*
 
+[View Notebook](https://github.com/king-sules/Covid_Taxi/blob/main/Covid-19%20Taxi.ipynb)
 
+---
 
-All of my codes are listed in this repository and I also included an original sample of data I recieved for the year 2007, which can be ran through each file.
+### Project 2: Housing Prices vs. Nuclear Power Plants (Undergraduate Thesis)
 
-[Here is the full thesis paper](https://github.com/king-sules/Nuclear_Matrix_Data/blob/master/Final%20Thesis.pdf)
+<img width="300" img height="300" alt="Map of Plymouth MA area" src="https://user-images.githubusercontent.com/54907087/140659135-7cc55f6b-087c-4d19-9b3c-298bfdbbee41.png">
 
-## Data Analysis
+* Investigated house price variations in Plymouth, MA, based on distance from a nearby nuclear power plant, specifically examining effects post-Fukushima Daiichi event.
+* Cleaned housing data and calculated distances using **Geopy** and **GeoPandas**.
+* Created dummy variables and distance categories to control for factors in the analysis.
+* Performed **multiple regression analysis** using **R** to determine correlations.
 
-### [Project 3: Covid-19 Breakout Analysis](https://github.com/king-sules/Covid) 
-This project focused on the Covid-19 outbreak. We simply follow the cases from the original covid outbreak from December 2019 to May 2020. We try to analyze which countries are most effected by the virus and try to visualize it through Rstudios.
+**Technologies Used:** ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white) *(Replace badges or list: **Python, R, Geopy, GeoPandas, Pandas**)*
 
-The data comes from John Hopkins.
+[View Code Repository](https://github.com/king-sules/Nuclear_Matrix_Data) | [Read Thesis Paper](https://github.com/king-sules/Nuclear_Matrix_Data/blob/master/Final%20Thesis.pdf)
 
-### [Project 4: Taxi vs. Uber](https://github.com/king-sules/Taxi)
-An analysis of taxi popularity in NYC after tlc new policy implemented in August 2018
+---
 
-In August 2018 the taxi & limousine commision passed a new policy which restricted the rides given to for hire vehicles, such as Uber and Lyft. This was to allow the yellow cab to compete with these rising companies
+## 📊 Data Analysis
 
-Through this project, we analysed how many rides taxi cabs give out every day, and month. We then compare this to rides that fhv vehicles give out. We use Postgres SQL to essentially gather our information.
+### Project 3: Covid-19 Breakout Analysis
 
-We use python to visualize our results. Afterwards, we use facebooks fbprophet to predict the future trends in rides given in both fhv and taxi.
+* Tracked and analyzed the initial Covid-19 outbreak (Dec 2019 - May 2020) using data from Johns Hopkins University.
+* Focused on identifying the most affected countries during the early phase.
+* Visualized the spread and impact using **RStudio**.
 
-## Mechanical Engineering 
-### [Project 5: Airplane Wing Vibration Analysis](https://github.com/king-sules/Vibrations/blob/main/Multi_DOF_Response.m)
-In this project I analyze a sample airplane wing to determine the effects of vibration towards the whole airplane. 
+**Technologies Used:** ![R](https://img.shields.io/badge/R-276DC3?style=flat&logo=r&logoColor=white) ![RStudio](https://img.shields.io/badge/RStudio-75AADB?style=flat&logo=RStudio&logoColor=white) *(Replace badges or list: **R, RStudio, Data Visualization**)*
 
-The wing was experimentally divided into many degrees of freedom, and furthermore vibration modes were determined with the help of a Matlab code I created. 
+[View Code Repository](https://github.com/king-sules/Covid)
 
-Results were also visualized with ANSYS software 
+---
 
-Full report was created with LaTeX and can be found [here](https://github.com/king-sules/Vibrations/blob/main/Vibration_Project%20(2).pdf)
+### Project 4: Taxi vs. Uber/FHV Analysis in NYC
 
+* Analyzed the impact of the Aug 2018 TLC policy change on yellow cab vs. For-Hire Vehicle (Uber/Lyft) ride volume in NYC.
+* Queried ride data using **PostgreSQL**.
+* Visualized daily and monthly ride trends using **Python**.
+* Predicted future ride trends for both taxi and FHV sectors using Facebook's **fbprophet** library.
 
-<img width="451" alt="Screen Shot 2021-11-28 at 8 17 27 PM" src="https://user-images.githubusercontent.com/54907087/143794858-40ba1d3a-aab5-4643-87a4-627a041bd47f.png">
+**Technologies Used:** ![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=flat&logo=postgresql&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=flat&logo=pandas&logoColor=white) ![Prophet](https://img.shields.io/badge/Prophet-007afe?style=flat) *(Replace badges or list: **Python, SQL (PostgreSQL), Pandas, fbprophet**)*
 
+[View Code Repository](https://github.com/king-sules/Taxi)
 
-### [Project 6: Design for Manufacturability (Tire)](https://github.com/king-sules/Vibrations/blob/main/Taguchi%20Project%20Tire%20Wear.pdf)
-For this project I Created a design of a sample tire, using the Taguchi method, to ensure the best manufacturability of the tire and reduce tire wear by selecting specific parameters. These parameters included slip angle, tension strength and the friction of the tire. The results were calculated using Minitab.
+---
 
-The report is linked [here](https://github.com/king-sules/Vibrations/blob/main/Taguchi%20Project%20Tire%20Wear.pdf)
-### Education 
-Physics and Economics 
+## ⚙️ Mechanical Engineering
+
+### Project 5: Airplane Wing Vibration Analysis
+
+<img width="451" alt="ANSYS Vibration Mode Shape" src="https://user-images.githubusercontent.com/54907087/143794858-40ba1d3a-aab5-4643-87a4-627a041bd47f.png">
+
+* Analyzed vibration effects on a sample airplane wing modeled with multiple degrees of freedom.
+* Determined vibration modes using a custom **MATLAB** code.
+* Visualized results using **ANSYS** software.
+* Compiled findings into a comprehensive report using **LaTeX**.
+
+**Technologies Used:** ![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat&logo=mathworks&logoColor=white) ![Ansys](https://img.shields.io/badge/ANSYS-FFB71B?style=flat) ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=flat&logo=latex&logoColor=white) *(Replace badges or list: **MATLAB, ANSYS, LaTeX**)*
+
+[View MATLAB Code](https://github.com/king-sules/Vibrations/blob/main/Multi_DOF_Response.m) | [Read Full Report (LaTeX PDF)](https://github.com/king-sules/Vibrations/blob/main/Vibration_Project%20(2).pdf)
+
+---
+
+### Project 6: Design for Manufacturability (Tire Wear Optimization)
+
+* Applied the **Taguchi method** (Design of Experiments) to optimize tire design parameters (slip angle, tension strength, friction) for improved manufacturability and reduced wear.
+* Analyzed parameter effects and determined optimal settings using **Minitab**.
+* Documented the methodology and results in a formal report.
+
+**Technologies Used:** ![Minitab](https://img.shields.io/badge/Minitab-4C8F2F?style=flat) ![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=flat&logo=latex&logoColor=white) *(Replace badges or list: **Minitab, Design of Experiments (Taguchi), LaTeX**)*
+
+[Read Full Report](https://github.com/king-sules/Vibrations/blob/main/Taguchi%20Project%20Tire%20Wear.pdf)
+
+---
